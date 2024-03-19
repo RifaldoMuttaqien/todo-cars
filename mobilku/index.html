@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Cars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <img src="src/favicon.png" alt="">
+                    
+                </div>
+                <div class="nav-h2">
+                    <h2>Mobilku</h2>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <section class="search" id="cariBarContainer">
+        <form id="cariForm" action="search-form">
+            <div class="input-group">
+                <div class="form-div">
+                    <label for="name">Mobilku</label>
+                    <input type="search" placeholder="Search for files, plugins, and creators" name="name" id="name">
+                </div>
+                <button type="submit">Cari</button>
+            </div>
+        </form>
+    </section>
+
+
+    <div id="carList" class="carList"></div>
+    </main>
+
+
+
+
+
+    <script src="src/script/view/cars.js"></script>
+</body>
+
+</html>
